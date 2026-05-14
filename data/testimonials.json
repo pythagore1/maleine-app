@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Nadège Mballa",
+    "comment": "Empire By MK a complètement transformé ma vision de la beauté. L'équipe est professionnelle, attentive et les résultats sont époustouflants. Je ne vais plus nulle part ailleurs !",
+    "rating": 5,
+    "service": "Soins du Visage",
+    "date": "2024-11-15"
+  },
+  {
+    "id": 2,
+    "name": "Christelle Atangana",
+    "comment": "Mes extensions de cils sont magnifiques ! La pose est précise, durable et très naturelle. J'ai reçu tellement de compliments depuis. Merci à toute l'équipe !",
+    "rating": 5,
+    "service": "Extension de Cils",
+    "date": "2024-12-03"
+  },
+  {
+    "id": 3,
+    "name": "Vanessa Nkomo",
+    "comment": "Le hammam était une expérience divine. Je me suis sentie renaître ! Le cadre est magnifique, propre et relaxant. Je recommande vivement la formule complète spa.",
+    "rating": 5,
+    "service": "Hammam & Spa",
+    "date": "2025-01-08"
+  },
+  {
+    "id": 4,
+    "name": "Patricia Essama",
+    "comment": "Mon maquillage de mariage était absolument parfait. MK a su capturer exactement ce que je voulais. Toutes mes invitées voulaient le contact de la maquilleuse !",
+    "rating": 5,
+    "service": "Make-up Professionnel",
+    "date": "2025-01-20"
+  },
+  {
+    "id": 5,
+    "name": "Aurore Biya",
+    "comment": "J'ai suivi la formation en maquillage et c'est la meilleure décision que j'ai prise. La formatrice est pédagogue et passionnée. Je me lance maintenant à mon compte !",
+    "rating": 5,
+    "service": "Formation Esthétique",
+    "date": "2025-02-14"
+  },
+  {
+    "id": 6,
+    "name": "Sandra Mfoumou",
+    "comment": "La manucure gel tient parfaitement depuis 3 semaines ! Et le nail art proposé est vraiment unique. C'est mon adresse beauté préférée à Yaoundé.",
+    "rating": 4,
+    "service": "Manucure & Pédicure",
+    "date": "2025-03-01"
+  }
+]

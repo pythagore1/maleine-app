@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Empire By MK – Institut de beauté et bien-être à Yaoundé, Montée Acacia. Coiffure, manucure, soins visage, extension de cils, make-up, hammam, perruques et formations esthétiques.">
+  <meta name="keywords" content="institut beauté Yaoundé, salon coiffure Cameroun, soins visage, extension cils, make-up Yaoundé, hammam spa, perruques">
+  <meta name="author" content="Empire By MK">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#C9A84C">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Empire By MK – Institut de Beauté & Bien-être">
+  <meta property="og:description" content="Votre destination beauté premium à Yaoundé, Montée Acacia, Cameroun.">
+  <meta property="og:type" content="business.business">
+  <meta property="og:locale" content="fr_CM">
+
+  <!-- PWA -->
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Empire By MK">
+
+  <title>Empire By MK – Institut de Beauté & Bien-être | Yaoundé</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-container">
+    <a href="#hero" class="nav-logo">
+      <div class="nav-logo-text">
+        <span class="nav-logo-name">Empire By MK</span>
+        <span class="nav-logo-sub">Institut de Beauté</span>
+      </div>
+    </a>
+
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#gallery">Galerie</a>
+      <a href="#testimonials">Avis</a>
+      <a href="#booking">Réservation</a>
+      <a href="#location">Contact</a>
+    </div>
+
+    <div class="nav-actions">
+      <button class="btn-theme" id="btn-theme" aria-label="Changer thème">☀️</button>
+      <a href="#booking" class="nav-rdv" data-wa>Prendre RDV</a>
+      <div class="btn-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <button class="mobile-close" id="mobile-close">✕</button>
+  <a href="#services">Services</a>
+  <a href="#gallery">Galerie</a>
+  <a href="#testimonials">Avis Clients</a>
+  <a href="#booking">Réservation</a>
+  <a href="#location">Contact & Localisation</a>
+  <button class="btn-primary" data-wa style="margin-top:1rem">📱 WhatsApp RDV</button>
+</div>
+
+<!-- ══════════════════════════════════════
+     HERO SECTION
+══════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-pattern"></div>
+
+  <div class="hero-container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span>✦</span>
+        <span>Yaoundé · Montée Acacia · Cameroun</span>
+      </div>
+
+      <h1 class="hero-title">
+        Révélez votre
+        <span class="hero-title-accent">Empire</span>
+      </h1>
+
+      <p class="hero-subtitle">Institut de Beauté & Bien-être</p>
+
+      <p class="hero-desc">
+        Bienvenue chez <strong>Empire By MK</strong>, votre sanctuaire de beauté à Yaoundé. 
+        Soins d'exception, expertise professionnelle et art de la féminité au cœur du Cameroun.
+      </p>
+
+      <div class="hero-cta">
+        <button class="btn-primary" data-wa>
+          📱 Prendre Rendez-vous
+        </button>
+        <a href="#services" class="btn-outline">
+          Nos Services ↓
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-number">500+</div>
+          <div class="stat-label">Clientes satisfaites</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">8</div>
+          <div class="stat-label">Services premium</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">5★</div>
+          <div class="stat-label">Satisfaction</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-img-frame">
+        <img
+          class="hero-img-main"
+          src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=700&q=85"
+          alt="Empire By MK – Institut de Beauté"
+          loading="eager"
+        >
+        <div class="hero-img-overlay"></div>
+      </div>
+      <div class="hero-float-card">
+        <div class="float-card-label">Ouvert aujourd'hui</div>
+        <div class="float-card-value">8h – 20h</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">
+    <div class="scroll-line"></div>
+    <span>Défiler</span>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     PROMO BANNER
+══════════════════════════════════════ -->
+<section id="promo">
+  <div class="container">
+    <div class="promo-inner">
+      <div class="promo-content">
+        <div class="promo-label">✦ Offre Spéciale</div>
+        <div class="promo-title">Forfait Beauté Complète <span>–20%</span></div>
+        <div class="promo-desc">Coiffure + Manucure + Soin Visage — offre valable pour les nouveaux clientes</div>
+      </div>
+      <button class="btn-primary" data-wa>
+        Profiter de l'Offre →
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     SERVICES
+══════════════════════════════════════ -->
+<section id="services" class="section">
+  <div class="container">
+    <div class="section-header centered fade-in-up">
+      <span class="section-label">✦ Notre Expertise</span>
+      <h2 class="section-title">Nos Services Premium</h2>
+      <div class="gold-line"></div>
+      <p class="section-subtitle">
+        De la coiffure aux soins du corps, nos spécialistes prennent soin de vous avec passion et expertise.
+      </p>
+    </div>
+  </div>
+
+  <div id="services-grid" class="services-grid" style="max-width:1200px;margin:0 auto">
+    <!-- Rendered by JS -->
+    <div style="padding:3rem;text-align:center;color:var(--gray);background:var(--dark-card)">Chargement des services…</div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     GALLERY
+══════════════════════════════════════ -->
+<section id="gallery" class="section">
+  <div class="container">
+    <div class="section-header fade-in-up">
+      <span class="section-label">✦ Avant & Après</span>
+      <h2 class="section-title">Notre Galerie</h2>
+      <div class="gold-line left"></div>
+      <p class="section-subtitle">
+        Survolez une image pour voir la transformation. Cliquez pour agrandir.
+      </p>
+    </div>
+
+    <div id="gallery-grid" class="gallery-grid">
+      <!-- Rendered by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox" role="dialog" aria-modal="true">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Fermer">✕</button>
+  <div class="lightbox-content">
+    <div class="lightbox-images">
+      <div class="lightbox-img-wrap">
+        <img id="lb-before" src="" alt="Avant">
+        <span class="lightbox-label">Avant</span>
+      </div>
+      <div class="lightbox-img-wrap">
+        <img id="lb-after" src="" alt="Après">
+        <span class="lightbox-label">Après</span>
+      </div>
+    </div>
+    <h3 id="lb-title" class="lightbox-title"></h3>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TESTIMONIALS
+══════════════════════════════════════ -->
+<section id="testimonials" class="section">
+  <div class="container">
+    <div class="section-header centered fade-in-up">
+      <span class="section-label">✦ Elles parlent de nous</span>
+      <h2 class="section-title">Témoignages Clients</h2>
+      <div class="gold-line"></div>
+      <p class="section-subtitle">
+        La satisfaction de nos clientes est notre plus belle récompense.
+      </p>
+    </div>
+
+    <div id="testimonials-track" class="testimonials-track">
+      <!-- Rendered by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     BOOKING
+══════════════════════════════════════ -->
+<section id="booking" class="section">
+  <div class="container">
+    <div class="booking-inner">
+      <div class="booking-visual">
+        <img
+          class="booking-img"
+          src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&q=80"
+          alt="Réservation Empire By MK"
+          loading="lazy"
+        >
+        <div class="booking-img-badge">
+          <span class="badge-num">7j/7</span>
+          <span class="badge-text">Disponible</span>
+        </div>
+      </div>
+
+      <div class="booking-content fade-in-up">
+        <span class="section-label">✦ Réservation</span>
+        <h2 class="section-title">Prenez votre<br><em>Rendez-vous</em></h2>
+        <div class="gold-line left"></div>
+        <p class="section-subtitle">
+          Réservez votre créneau directement via WhatsApp ou appelez-nous. Réponse rapide garantie.
+        </p>
+
+        <div class="booking-methods">
+          <div class="booking-method" data-wa onclick="window.open('https://wa.me/237600000000?text=' + encodeURIComponent('Bonjour, je souhaite prendre un rendez-vous chez Empire By MK'), '_blank')">
+            <div class="method-icon">💬</div>
+            <div>
+              <div class="method-title">WhatsApp</div>
+              <div class="method-sub">Message pré-rempli · Réponse rapide</div>
+            </div>
+            <span style="color:var(--gold);margin-left:auto">→</span>
+          </div>
+
+          <div class="booking-method" onclick="window.open('tel:+237600000000')">
+            <div class="method-icon">📞</div>
+            <div>
+              <div class="method-title">Appel Direct</div>
+              <div class="method-sub">+237 600 000 000 · Lun–Sam 8h–20h</div>
+            </div>
+            <span style="color:var(--gold);margin-left:auto">→</span>
+          </div>
+
+          <div class="booking-method" onclick="window.open('https://www.instagram.com/', '_blank')">
+            <div class="method-icon">📸</div>
+            <div>
+              <div class="method-title">Instagram</div>
+              <div class="method-sub">@empirebymk · DM pour réserver</div>
+            </div>
+            <span style="color:var(--gold);margin-left:auto">→</span>
+          </div>
+        </div>
+
+        <button class="btn-whatsapp" onclick="window.open('https://wa.me/237600000000?text=' + encodeURIComponent('Bonjour, je souhaite prendre un rendez-vous chez Empire By MK'), '_blank')">
+          <span>💬</span>
+          Réserver via WhatsApp
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     LOCATION
+══════════════════════════════════════ -->
+<section id="location" class="section">
+  <div class="container">
+    <div class="section-header fade-in-up">
+      <span class="section-label">✦ Nous Trouver</span>
+      <h2 class="section-title">Notre Adresse</h2>
+      <div class="gold-line left"></div>
+    </div>
+
+    <div class="location-inner">
+      <div class="location-info fade-in-up">
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <div class="contact-label">Adresse</div>
+              <div class="contact-value">Montée Acacia, Yaoundé<br>Centre, Cameroun</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <div class="contact-label">Téléphone</div>
+              <div class="contact-value">+237 600 000 000</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">⏰</div>
+            <div>
+              <div class="contact-label">Horaires</div>
+              <div class="contact-value">Lundi – Samedi : 8h00 – 20h00<br>Dimanche : Sur rendez-vous</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💬</div>
+            <div>
+              <div class="contact-label">WhatsApp</div>
+              <div class="contact-value">+237 600 000 000</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:1rem;flex-wrap:wrap">
+          <button class="btn-primary" onclick="window.open('https://maps.google.com/?q=Montée+Acacia+Yaoundé+Cameroun', '_blank')">
+            🗺️ Ouvrir dans Maps
+          </button>
+          <button class="btn-outline" data-wa>
+            📱 Nous Contacter
+          </button>
+        </div>
+      </div>
+
+      <div class="map-container fade-in-up">
+        <iframe
+  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d711.987452416452!2d11.492322!3d3.839123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2scm"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  title="Empire By MK – Localisation Montée Acacia Yaoundé">
+</iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Empire By MK</div>
+        <p class="footer-tagline">
+          Votre destination beauté premium à Yaoundé. Excellence, élégance et savoir-faire au service de votre beauté.
+        </p>
+        <div class="footer-social">
+          <a href="https://wa.me/237600000000" target="_blank" class="social-link" aria-label="WhatsApp">💬</a>
+          <a href="https://www.instagram.com/" target="_blank" class="social-link" aria-label="Instagram">📸</a>
+          <a href="https://www.facebook.com/" target="_blank" class="social-link" aria-label="Facebook">👤</a>
+          <a href="tel:+237600000000" class="social-link" aria-label="Appeler">📞</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Coiffure</a></li>
+          <li><a href="#services">Manucure & Pédicure</a></li>
+          <li><a href="#services">Soins du Visage</a></li>
+          <li><a href="#services">Extension de Cils</a></li>
+          <li><a href="#services">Make-up Pro</a></li>
+          <li><a href="#services">Hammam & Spa</a></li>
+          <li><a href="#services">Formation</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#gallery">Galerie</a></li>
+          <li><a href="#testimonials">Avis Clients</a></li>
+          <li><a href="#booking">Réservation</a></li>
+          <li><a href="#location">Localisation</a></li>
+          <li><a href="#promo">Promotions</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        © 2025 Empire By MK. Tous droits réservés. · Yaoundé, Cameroun
+      </p>
+      <button class="footer-admin-link" onclick="openAdmin()" style="display: none;">⚙️ Admin</button>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════
+     FLOATING WHATSAPP
+══════════════════════════════════════ -->
+<a id="float-wa"
+   href="https://wa.me/237600000000?text=Bonjour%2C%20je%20souhaite%20prendre%20un%20rendez-vous%20chez%20Empire%20By%20MK"
+   target="_blank"
+   rel="noopener"
+   aria-label="Contacter via WhatsApp"
+   title="Prendre rendez-vous sur WhatsApp">
+  💬
+</a>
+
+<!-- ══════════════════════════════════════
+     PWA INSTALL BANNER
+══════════════════════════════════════ -->
+<div id="install-banner" style="display:none;position:fixed;bottom:6rem;left:1rem;right:1rem;background:var(--dark-card);border:1px solid rgba(201,168,76,0.3);border-radius:8px;padding:1rem 1.5rem;z-index:800;align-items:center;gap:1rem;max-width:400px">
+  <span style="font-size:1.5rem">📲</span>
+  <div style="flex:1">
+    <div style="font-size:0.85rem;font-weight:500;color:var(--white)">Installer l'application</div>
+    <div style="font-size:0.75rem;color:var(--gray)">Accédez rapidement à Empire By MK</div>
+  </div>
+  <button onclick="installPWA()" style="background:var(--gold);color:var(--black);padding:0.5rem 1rem;border-radius:4px;font-size:0.75rem;font-weight:600;cursor:pointer">Installer</button>
+  <button onclick="this.parentElement.style.display='none'" style="color:var(--gray);font-size:1.2rem;cursor:pointer">✕</button>
+</div>
+
+<!-- ══════════════════════════════════════
+     ADMIN PANEL
+══════════════════════════════════════ -->
+<div id="admin-panel">
+  <div class="admin-header">
+    <div class="admin-logo">Admin — Empire By MK</div>
+
+    <div class="admin-tabs">
+      <button class="admin-tab active" data-tab="services" onclick="switchAdminTab('services')">Services</button>
+      <button class="admin-tab" data-tab="testimonials" onclick="switchAdminTab('testimonials')">Témoignages</button>
+      <button class="admin-tab" data-tab="gallery" onclick="switchAdminTab('gallery')">Galerie</button>
+      <button class="admin-tab" data-tab="export" onclick="switchAdminTab('export')">Export JSON</button>
+    </div>
+
+    <div class="admin-actions">
+      <button class="btn-export" onclick="downloadJSON('all')">⬇️ Tout Exporter</button>
+      <button class="btn-close-admin" onclick="closeAdmin()">✕ Fermer</button>
+    </div>
+  </div>
+
+  <div class="admin-body">
+
+    <!-- Services Tab -->
+    <div id="admin-services" class="admin-section active">
+      <h2 class="admin-section-title">Gérer les Services</h2>
+      <p class="admin-section-sub">Ajoutez, modifiez ou supprimez vos services. Les changements sont sauvegardés localement.</p>
+
+      <button class="btn-add-new" onclick="editService(null)">
+        ＋ Ajouter un Service
+      </button>
+
+      <div id="admin-services-list" class="admin-list">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+
+    <!-- Testimonials Tab -->
+    <div id="admin-testimonials" class="admin-section">
+      <h2 class="admin-section-title">Gérer les Témoignages</h2>
+      <p class="admin-section-sub">Gérez les avis de vos clientes.</p>
+
+      <button class="btn-add-new" onclick="editTestimonial(null)">
+        ＋ Ajouter un Témoignage
+      </button>
+
+      <div id="admin-testimonials-list" class="admin-list">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+
+    <!-- Gallery Tab -->
+    <div id="admin-gallery" class="admin-section">
+      <h2 class="admin-section-title">Gérer la Galerie</h2>
+      <p class="admin-section-sub">Ajoutez des images avant/après pour votre galerie.</p>
+
+      <button class="btn-add-new" onclick="editGallery(null)">
+        ＋ Ajouter une Image
+      </button>
+
+      <div id="admin-gallery-list" class="admin-list">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+
+    <!-- Export Tab -->
+    <div id="admin-export" class="admin-section">
+      <h2 class="admin-section-title">Exporter les Données JSON</h2>
+      <p class="admin-section-sub">Téléchargez vos fichiers JSON mis à jour pour les déployer sur votre hébergement.</p>
+
+      <div class="export-grid">
+        <div class="export-card">
+          <div class="export-card-icon">⚙️</div>
+          <div class="export-card-title">services.json</div>
+          <div class="export-card-desc" id="export-services-count">Chargement…</div>
+          <button class="btn-primary" onclick="downloadJSON('services')">Télécharger</button>
+        </div>
+        <div class="export-card">
+          <div class="export-card-icon">💬</div>
+          <div class="export-card-title">testimonials.json</div>
+          <div class="export-card-desc" id="export-testimonials-count">Chargement…</div>
+          <button class="btn-primary" onclick="downloadJSON('testimonials')">Télécharger</button>
+        </div>
+        <div class="export-card">
+          <div class="export-card-icon">🖼️</div>
+          <div class="export-card-title">gallery.json</div>
+          <div class="export-card-desc" id="export-gallery-count">Chargement…</div>
+          <button class="btn-primary" onclick="downloadJSON('gallery')">Télécharger</button>
+        </div>
+        <div class="export-card">
+          <div class="export-card-icon">📦</div>
+          <div class="export-card-title">Tout Exporter</div>
+          <div class="export-card-desc">Téléchargez les 3 fichiers en une fois</div>
+          <button class="btn-primary" onclick="downloadJSON('all')">Télécharger Tout</button>
+        </div>
+      </div>
+
+      <div style="margin-top:2rem">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.5rem">
+          <h3 style="font-family:var(--font-display);font-size:1.3rem;font-style:italic;color:var(--white)">Aperçu</h3>
+          <button class="btn-delete" style="padding:0.4rem 1rem;font-size:0.75rem" onclick="resetToDefaults()">🔄 Réinitialiser</button>
+        </div>
+        <div id="export-preview" class="preview-box">Chargement…</div>
+      </div>
+    </div>
+
+  </div><!-- .admin-body -->
+</div><!-- #admin-panel -->
+
+<!-- Admin Modal for Add/Edit -->
+<div id="admin-modal" class="admin-modal">
+  <div class="admin-modal-inner">
+    <h3 id="modal-title" class="admin-modal-title">Modifier</h3>
+    <div id="modal-content">
+      <!-- Dynamic form content -->
+    </div>
+    <div class="form-actions">
+      <button class="btn-save" onclick="saveModal()">Enregistrer</button>
+      <button class="btn-cancel" onclick="closeModal()">Annuler</button>
+    </div>
+  </div>
+</div>
+
+<script src="./js/app.js"></script>
+<script src="./js/admin.js"></script>
+
+<script>
+  // Update export counts when admin opens
+  const _origAdminInit = window.adminInit;
+  window.adminInit = function() {
+    _origAdminInit?.();
+    // Update count descriptions
+    setTimeout(() => {
+      const sc = document.getElementById('export-services-count');
+      const tc = document.getElementById('export-testimonials-count');
+      const gc = document.getElementById('export-gallery-count');
+      if (sc) sc.textContent = DATA.services.length + ' service(s) enregistré(s)';
+      if (tc) tc.textContent = DATA.testimonials.length + ' témoignage(s) enregistré(s)';
+      if (gc) gc.textContent = DATA.gallery.length + ' image(s) enregistrée(s)';
+    }, 100);
+  };
+</script>
+</body>
+</html>
