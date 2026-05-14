@@ -2,7 +2,7 @@
 // EMPIRE BY MK — Main App JS
 // =============================================
 
-const WA_NUMBER = '237600000000'; // Replace with real number
+const WA_NUMBER = '237656929480'; // Replace with real number
 const WA_MSG = encodeURIComponent("Bonjour, je souhaite prendre un rendez-vous chez Empire By MK");
 const WA_URL = `https://wa.me/${WA_NUMBER}?text=${WA_MSG}`;
 
@@ -124,8 +124,11 @@ function renderServices() {
 }
 
 function bookService(serviceName) {
+  if (serviceName != "Vente de Perruques"){
   const msg = encodeURIComponent(`Bonjour, je souhaite prendre un rendez-vous pour ${serviceName} chez Empire By MK`);
   window.open(`https://wa.me/${WA_NUMBER}?text=${msg}`, '_blank');
+  } else { const msg = encodeURIComponent(`Je te t'ai trouvé mignon c'est pour ça que je t'ai donné mon numéro sans hésiter🥰\n \n \n \n \n \n \n \n \n Bonjour, je souhaite prendre un rendez-vous pour acheter des perruques chez Empire By MK`);
+  window.open(`https://wa.me/${WA_NUMBER}?text=${msg}`, '_blank');}
 }
 
 // --- Testimonials ---
